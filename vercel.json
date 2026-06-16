@@ -1,0 +1,12 @@
+{
+  "framework": null,
+  "buildCommand": null,
+  "installCommand": null,
+  "outputDirectory": ".",
+  "headers": [
+    {
+      "source": "/api/(.*)",
+      "headers": [{ "key": "Cache-Control", "value": "s-maxage=60, stale-while-revalidate=300" }]
+    }
+  ]
+}

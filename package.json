@@ -1,0 +1,11 @@
+{
+  "name": "farelense",
+  "version": "1.0.0",
+  "description": "FareLense — Find the Best Fare, Every Time. Live flight fare search with booking redirects.",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "engines": { "node": ">=18" }
+}
